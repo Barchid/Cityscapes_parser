@@ -78,13 +78,13 @@ mkdir(TARGET_TEST_DEPTH)
 
 # parsing mask folders
 mask_dir_parsing(SOURCE_VAL_MASK, TARGET_VAL_MASK)
-# mask_dir_parsing(SOURCE_TEST_MASK, TARGET_TEST_MASK)
-# mask_dir_parsing(SOURCE_TRAIN_MASK, TARGET_TRAIN_MASK)
+mask_dir_parsing(SOURCE_TEST_MASK, TARGET_TEST_MASK)
+mask_dir_parsing(SOURCE_TRAIN_MASK, TARGET_TRAIN_MASK)
 
 depth_dir_parsing(SOURCE_VAL_DEPTH, TARGET_VAL_DEPTH)
-# depth_dir_parsing(SOURCE_TEST_DEPTH, TARGET_TEST_DEPTH)
-# depth_dir_parsing(SOURCE_TRAIN_DEPTH, TARGET_TRAIN_DEPTH)
+depth_dir_parsing(SOURCE_TEST_DEPTH, TARGET_TEST_DEPTH)
+depth_dir_parsing(SOURCE_TRAIN_DEPTH, TARGET_TRAIN_DEPTH)
 
 rgb_dir_parsing(SOURCE_VAL_RGB, TARGET_VAL_RGB)
-# rgb_dir_parsing(SOURCE_TEST_RGB, TARGET_TEST_RGB)
-# rgb_dir_parsing(SOURCE_TRAIN_RGB, TARGET_TRAIN_RGB)
+rgb_dir_parsing(SOURCE_TEST_RGB, TARGET_TEST_RGB)
+rgb_dir_parsing(SOURCE_TRAIN_RGB, TARGET_TRAIN_RGB)
